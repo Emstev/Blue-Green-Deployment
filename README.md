@@ -27,6 +27,7 @@ Traffic Switch → Load Balancer shifts traffic from Blue → Green.
 Monitoring & Rollback → In case of failure, rollback to Blue.
 
 
+
 Diagram (High-level)
           +----------------+
           |    Developer   |
@@ -54,6 +55,31 @@ Diagram (High-level)
            +------+-------+
                   |
               End Users
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
               
 ⚙️ Tech Stack:
 CI/CD Tools → Jenkins / GitHub Actions 
