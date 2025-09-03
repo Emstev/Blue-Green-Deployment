@@ -74,7 +74,8 @@ Automation → Bash / Python scripts
 ✅ Easy rollback mechanism
 
 
-🚀 Deployment Steps
+🚀 Deployment Steps:
+
 Clone the repository:
 git clone https://github.com/Emstev/Blue-Green-Deployment.git.
 cd blue-green-cicd
@@ -85,7 +86,8 @@ Verify Green environment deployment.
 Trigger Load Balancer traffic switch from Blue → Green.
 
 
-📊 Monitoring & Rollback
+📊 Monitoring & Rollback:
+
 Health Checks → ALB target group status.
 Logs → CloudWatch / ELK stack.
 Rollback → Switch traffic back to Blue in case of errors.
@@ -100,7 +102,8 @@ Rollback → Switch traffic back to Blue in case of errors.
 ├── scripts/             # Deployment/automation scripts
 └── README.md            # Documentation
 
-🔮 Future Improvements
+🔮 Future Improvements:
+
 Add Canary Deployment alongside Blue-Green.
 Integrate Service Mesh (Istio/Linkerd) for traffic management.
 Implement Chaos Testing for resilience validation.
