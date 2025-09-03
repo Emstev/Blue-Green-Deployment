@@ -55,25 +55,6 @@ Diagram (High-level)
            +------+-------+
                   |
               End Users
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               
               
 ⚙️ Tech Stack:
@@ -84,12 +65,14 @@ Monitoring →  Prometheus / Grafana
 Version Control → Git & GitHub
 Automation → Bash / Python scripts
 
+
 🔑 Features
 ✅ Zero downtime deployments
 ✅ Automated testing & artifact management
 ✅ Immutable infrastructure with Blue-Green strategy
 ✅ Health checks & monitoring integration
 ✅ Easy rollback mechanism
+
 
 🚀 Deployment Steps
 Clone the repository:
@@ -101,10 +84,12 @@ Run CI/CD pipeline (example: Jenkins build job or GitHub Actions workflow).
 Verify Green environment deployment.
 Trigger Load Balancer traffic switch from Blue → Green.
 
+
 📊 Monitoring & Rollback
 Health Checks → ALB target group status.
 Logs → CloudWatch / ELK stack.
 Rollback → Switch traffic back to Blue in case of errors.
+
 
 📂 Project Structure
 ├── .github/workflows/   # GitHub Actions pipeline (if applicable)
